@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*
+{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+section
+{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #ff4da67a, #00d0ff50);
+}
+
+
+
+.container 
+{
+    position: relative;
+    width: 400px;
+    min-height: 400px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+    border:  1px solid rgba(255,255,255,0.5);
+    border-right: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding: 40px;
+}
+
+
+.login_header
+{
+    position: relative;
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+input {
+    width: 100%;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.075);
+    border: none;
+    outline: none;
+    padding: 10px 20px ;
+    border-radius: 35px;
+    border:  1px solid rgba(255,255,255,0.5);
+    border-right: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: rgb(51, 51, 51);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+input::placeholder
+{
+    color: rgb(145, 145, 145);
+}
+
+input[type="submit"]
+{
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    color: #666;
+    max-width: 100px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 40px;
+    
+}
+
+.register 
+{
+    margin-top: 20px;
+    color: rgb(145, 145, 145);
+    padding-right: 20px;
+}
+
+a
+{
+    color: rgb(51, 51, 51);
+    font-size: 110%;
+    font-weight: 600;
+}
